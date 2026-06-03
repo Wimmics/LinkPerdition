@@ -1,6 +1,10 @@
 # Knowledge Graph Embedding (KGE) Training Library
 
-A library for training Knowledge Graph Embeddings with full control over randomness sources, largely inspired by [LibKGE](https://github.com/uma-pi1/kge).
+Official repository for the paper
+*"[Link Prediction or Perdition: the Seeds of Instability in Knowledge Graph Embeddings](https://arxiv.org/abs/2606.03365)"*,
+accepted at ESWC2026.
+
+The library provides a framework for training Knowledge Graph Embeddings (KGEs) with full control over randomness sources. It is largely inspired by [LibKGE](https://github.com/uma-pi1/kge).
 
 
 ## Supplementary figures
@@ -215,3 +219,20 @@ For RGCN, we apply a hidden dropout of 0.2 and use two encoding layers, leveragi
 
 
 Our goal is not to reach SOTA performance but to define three clearly distinct performance levels. The best identified configuration remains reasonably close to SOTA (source : https://github.com/uma-pi1/kge and https://arxiv.org/pdf/1703.06103 and https://arxiv.org/pdf/2008.12813).
+
+
+
+# Citation
+
+If you use this repository in your research, please cite:
+
+```
+@inbook{Meroue_2026,
+	title        = {Link Prediction or Perdition: The Seeds of Instability in Knowledge Graph Embeddings},
+	author       = {Méroué, Guillaume and Gandon, Fabien and Monnin, Pierre},
+	year         = 2026,
+	booktitle    = {The Semantic Web},
+	pages        = {198–216},
+	doi          = {10.1007/978-3-032-25156-5_11},
+}
+```
